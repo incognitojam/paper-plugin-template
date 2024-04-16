@@ -1,4 +1,4 @@
-package gg.flyte.template.command
+package dev.incognitojam.template.command
 
 import net.kyori.adventure.audience.Audience
 import net.kyori.adventure.text.Component

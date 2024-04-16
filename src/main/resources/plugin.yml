@@ -1,7 +1,7 @@
 name: Paper-Kotlin-Template
 version: 1.0.0
-main: gg.flyte.template.PluginTemplate
+main: dev.incognitojam.template.PluginTemplate
 api-version: '1.20'
-authors: [ The Flyte Team ]
+authors: [ incognitojam ]
 description: Paper Plugin Template written in Kotlin.
-website: https://flyte.gg
+website: https://github.com/incognitojam

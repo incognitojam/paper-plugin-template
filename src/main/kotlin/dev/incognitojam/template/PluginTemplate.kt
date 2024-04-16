@@ -1,7 +1,7 @@
-package gg.flyte.template
+package dev.incognitojam.template
 
-import gg.flyte.template.command.PingCommand
-import gg.flyte.template.listener.JoinListener
+import dev.incognitojam.template.command.PingCommand
+import dev.incognitojam.template.listener.JoinListener
 import gg.flyte.twilight.twilight
 import io.papermc.lib.PaperLib
 import org.bukkit.plugin.java.JavaPlugin

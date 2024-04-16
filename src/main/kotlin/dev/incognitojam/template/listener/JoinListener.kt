@@ -1,4 +1,4 @@
-package gg.flyte.template.listener
+package dev.incognitojam.template.listener
 
 import gg.flyte.twilight.event.event
 import gg.flyte.twilight.scheduler.delay

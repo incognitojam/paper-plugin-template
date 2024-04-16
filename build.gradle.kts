@@ -5,8 +5,8 @@ plugins {
     alias(libs.plugins.run.paper)
 }
 
-group = "gg.flyte"
-version = "1.0.1"
+group = "dev.incognitojam"
+version = "1.0.0"
 
 repositories {
     mavenCentral()
@@ -32,9 +32,9 @@ tasks {
     compileKotlin { kotlinOptions.jvmTarget = "17" }
 
     shadowJar {
-        relocate("kotlin", "gg.flyte.kotlin")
-        relocate("io.papermc.lib", "gg.flyte.paperlib")
-        relocate("org.jetbrains.annotations", "gg.flyte.jetbrains.annotations")
-        relocate("org.intellij.lang.annotations", "gg.flyte.intellij.lang.annotations")
+        relocate("kotlin", "dev.incognitojam.kotlin")
+        relocate("io.papermc.lib", "dev.incognitojam.paperlib")
+        relocate("org.jetbrains.annotations", "dev.incognitojam.jetbrains.annotations")
+        relocate("org.intellij.lang.annotations", "dev.incognitojam.intellij.lang.annotations")
     }
 }
