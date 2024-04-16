@@ -1,3 +1,6 @@
+import org.jetbrains.kotlin.gradle.dsl.JvmTarget
+import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
+
 plugins {
     alias(libs.plugins.kotlin)
     alias(libs.plugins.shadow)
@@ -37,4 +40,12 @@ tasks {
         relocate("org.jetbrains.annotations", "dev.incognitojam.jetbrains.annotations")
         relocate("org.intellij.lang.annotations", "dev.incognitojam.intellij.lang.annotations")
     }
+}
+
+tasks.withType(JavaCompile::class.java).configureEach {
+    sourceCompatibility = "17"
+    targetCompatibility = "17"
+}
+tasks.withType(KotlinCompile::class.java).configureEach {
+    compilerOptions.jvmTarget.set(JvmTarget.JVM_17)
 }
