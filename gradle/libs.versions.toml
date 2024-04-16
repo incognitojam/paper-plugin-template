@@ -1,16 +1,16 @@
 [versions]
 # Plugins
-kotlin = "1.9.22"
+kotlin = "2.0.0-RC1"
 shadow = "8.1.1"
-paperweight = "1.5.11"
-run-paper = "2.2.2"
+paperweight = "1.5.12"
+run-paper = "2.2.3"
 
 # Libraries
-twilight = "1.0.30"
-paperlib = "1.0.7"
+twilight = "1.1.0"
+paperlib = "1.0.8"
 bstats = "3.0.2"
-lamp = "3.1.7"
-adventure = "4.14.0"
+lamp = "3.2.1"
+adventure = "4.16.0"
 adventure-platform-bukkit = "4.3.2"
 
 [libraries]
@@ -31,7 +31,3 @@ kotlin = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
 shadow = { id = "com.github.johnrengelman.shadow", version.ref = "shadow" }
 paperweight = { id = "io.papermc.paperweight.userdev", version.ref = "paperweight" }
 run-paper = { id = "xyz.jpenilla.run-paper", version.ref = "run-paper" }
-
-
-
-
