@@ -32,7 +32,6 @@ dependencies {
 tasks {
     build { dependsOn(shadowJar) }
     runServer { minecraftVersion("1.20.4") }
-    compileKotlin { kotlinOptions.jvmTarget = "17" }
 
     shadowJar {
         relocate("kotlin", "dev.incognitojam.kotlin")
