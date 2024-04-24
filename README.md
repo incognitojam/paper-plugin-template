@@ -1,3 +1,3 @@
-# kotlin-paper-plugin-template
+# paper-plugin-template
 
-Template Minecraft plugin using Kotlin, Gradle and Paper.
+Template for PaperMC plugin using Kotlin.
