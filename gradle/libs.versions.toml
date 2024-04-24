@@ -1,7 +1,7 @@
 [versions]
 # Plugins
 kotlin = "2.0.0-RC1"
-shadow = "8.1.1"
+shadow = "8.1.5"
 paperweight = "1.5.15"
 run-paper = "2.2.4"
 
@@ -28,6 +28,6 @@ adventure-platform-bukkit = { module = "net.kyori:adventure-platform-bukkit", ve
 
 [plugins]
 kotlin = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
-shadow = { id = "com.github.johnrengelman.shadow", version.ref = "shadow" }
+shadow = { id = "io.github.goooler.shadow", version.ref = "shadow" }
 paperweight = { id = "io.papermc.paperweight.userdev", version.ref = "paperweight" }
 run-paper = { id = "xyz.jpenilla.run-paper", version.ref = "run-paper" }

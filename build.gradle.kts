@@ -41,10 +41,6 @@ tasks {
     }
 }
 
-tasks.withType(JavaCompile::class.java).configureEach {
-    sourceCompatibility = "17"
-    targetCompatibility = "17"
-}
-tasks.withType(KotlinCompile::class.java).configureEach {
-    compilerOptions.jvmTarget.set(JvmTarget.JVM_17)
+kotlin {
+    jvmToolchain(21)
 }
