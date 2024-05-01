@@ -1,6 +1,3 @@
-import org.jetbrains.kotlin.gradle.dsl.JvmTarget
-import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
-
 plugins {
     alias(libs.plugins.kotlin)
     alias(libs.plugins.shadow)
@@ -31,7 +28,6 @@ dependencies {
 
 tasks {
     build { dependsOn(shadowJar) }
-    runServer { minecraftVersion("1.20.4") }
 
     shadowJar {
         relocate("kotlin", "dev.incognitojam.kotlin")
@@ -39,6 +35,8 @@ tasks {
         relocate("org.jetbrains.annotations", "dev.incognitojam.jetbrains.annotations")
         relocate("org.intellij.lang.annotations", "dev.incognitojam.intellij.lang.annotations")
     }
+
+    runServer { minecraftVersion("1.20.4") }
 }
 
 kotlin {
